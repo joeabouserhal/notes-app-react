@@ -1,0 +1,11 @@
+.navbar {
+  @apply w-screen h-[10vh] px-10 flex justify-between border-b border-zinc-400;
+}
+
+.buttons {
+  @apply my-auto;
+}
+
+h1 {
+  @apply text-xl my-auto;
+}
