@@ -1,0 +1,11 @@
+.aboutPage {
+  @apply flex p-24 w-[80vw] flex-col m-auto justify-center;
+}
+
+.aboutTitle {
+  @apply text-4xl text-center;
+}
+
+.aboutText {
+  @apply text-xl text-gray-800 text-center;
+}

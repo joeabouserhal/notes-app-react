@@ -16,7 +16,9 @@ const SideBarNote = (props: Props) => {
 
   return (
     <div className="noteContainer" onClick={navigateToNote}>
-      {props.title == "" ? "No Title" : props.title}
+      <p className="previewTitle">
+        {props.title == "" ? "No Title" : props.title}
+      </p>
     </div>
   );
 };

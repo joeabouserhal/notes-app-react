@@ -6,7 +6,6 @@ import { generateUUID } from "../../utils/generateUUID";
 import SideBarNote from "../../components/SideBar/SideBarNote/SideBarNote";
 
 const SideBar = () => {
-  const [open, setOpen] = useState();
   const { notes, addNote } = useNotesStore();
 
   const createNewNote = () => {

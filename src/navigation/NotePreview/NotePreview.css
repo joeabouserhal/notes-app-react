@@ -1,3 +1,11 @@
 .notepreview {
-  @apply p-5;
+  @apply p-5 flex flex-col w-full;
+}
+
+.title {
+  @apply bg-zinc-200 border-2 outline-none text-2xl;
+}
+
+.description {
+  @apply bg-zinc-200 border-0 outline-none h-full;
 }

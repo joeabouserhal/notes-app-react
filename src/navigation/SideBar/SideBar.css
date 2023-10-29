@@ -1,7 +1,7 @@
 .sidebar {
-  @apply max-w-[20vw] h-[80vh] flex flex-col gap-2 border-r border-zinc-400 px-10 py-5;
+  @apply w-[20vw] flex flex-col gap-2 border-r border-zinc-400 px-5 py-5;
 }
 
 .addNoteButton {
-  @apply flex gap-2 justify-between bg-blue-500 text-white font-bold p-2 rounded-lg;
+  @apply flex gap-2 justify-between bg-blue-500 text-white font-bold p-2 rounded-lg hover:bg-blue-600;
 }
